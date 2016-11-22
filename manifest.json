@@ -1,0 +1,23 @@
+{
+   "background": 
+   {
+         "scripts": [ "main.js" ],
+        "persistent": true
+   },
+   "page_action":
+   {
+      "default_icon": {
+      	 "19": "images/icon_19.png",
+         "38": "images/icon_38.png",
+         "48": "images/icon_48.png",
+         "128": "images/icon_128.png"
+         },
+      "default_title": "WynkDL: Download your favourite songs off Wynk"
+   },
+"manifest_version": 2,
+   "minimum_chrome_version": "23",
+   "name": "Wynk Songs Downloader",
+   "permissions": [ "webRequest", "webRequestBlocking", "downloads", "tabs", "*://*.wynk.in/"],
+   "short_name": "WynkDL",
+   "version": "1"
+}
